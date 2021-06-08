@@ -6,7 +6,7 @@ document.getElementById('mybutton').addEventListener('click', comparison)
 function comparison () {
   userinput = document.getElementById('myinput').value
   userinput = parseInt(userinput)
-// Check if the user input is less than 0 (negative)
+  // Check if the user input is less than 0 (negative)
   if (userinput < 0) {
     document.getElementById('myanswer').innerHTML = 'Negative'
   } else {
